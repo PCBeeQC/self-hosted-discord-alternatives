@@ -1,8 +1,12 @@
 # 💬 Self-Hosted Discord & Slack Alternatives
 
-A comprehensive, honest comparison of self-hosted, open-source, and paid alternatives to communication platforms like Discord and Slack.
+A comparison of self-hosted alternatives to communication platforms like Discord and Slack.
 
-Unlike other lists that focus solely on 1:1 Discord clones, this directory aims to include all serious self-hosted chat applications suitable for communities, businesses, and gaming groups.
+The goal of this list is to include all self-hosted alternatives, not only the open source projects. 
+
+## A note on bias
+
+This list is created and maintained by the creator of Spokes (which is why I put Spokes at the top). Apart from that, I want the list to be as accurate as possible. If you know of a serious self-hosted alternative that isn't listed here, or if you spot an inaccuracy, please open a pull request or issue. I will do my best to fix it as quickly as possible.
 
 ## ⚖️ Comparison
 
@@ -23,8 +27,3 @@ Unlike other lists that focus solely on 1:1 Discord clones, this directory aims 
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! If you know of a serious self-hosted alternative that isn't listed here, or if you spot an inaccuracy, please open a pull request or issue. 
-
-When adding a new platform, please ensure you fill out all columns accurately based on their self-hosted offering.
