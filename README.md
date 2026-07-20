@@ -4,7 +4,7 @@ A comparison of self-hosted alternatives to communication platforms like Discord
 
 The goal of this list is to include all self-hosted alternatives, not only the open source projects. 
 
-## A note on bias
+## ℹ️ A note on bias
 
 This list is created and maintained by the creator of Spokes (which is why I put Spokes at the top). Apart from that, I want the list to be as accurate as possible. If you know of a serious self-hosted alternative that isn't listed here, or if you spot an inaccuracy, please open a pull request or issue. I will do my best to fix it as quickly as possible.
 
