@@ -1,6 +1,6 @@
-# 💬 Self-Hosted Discord & Slack Alternatives
+# 💬 Self-Hosted Discord Alternatives
 
-A comparison of self-hosted alternatives to communication platforms like Discord and Slack.
+A comparison of self-hosted alternatives to communication platforms like Discord.
 
 The goal of this list is to include all self-hosted alternatives, not only the open source projects. 
 
@@ -12,14 +12,16 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 | Name | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **[Spokes](https://spokes.sh/)** | Paid / Licensing | 🟢 | App, Web | ✅ | ✅ | ✅ | ✅ | ✅ (🔒 Encrypted) | ✅ (At-Rest) | Small / Teams |
-| **[Mattermost](https://mattermost.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ (Paid) | ✅ (Needs relay) | ❌ | Enterprise |
-| **[Rocket.Chat](https://rocket.chat/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ | ✅ (Needs relay) | ✅ (E2E) | Enterprise |
-| **[Matrix (Element)](https://element.io/)** | Free | 🔴 | App, Web | ✅ | ✅ | ✅ | ✅ | ✅ (Needs relay) | ✅ (E2E) | Massive / Any |
-| **[Zulip](https://zulip.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ (Jitsi) | ✅ | ✅ (Needs relay) | ❌ | Enterprise / Any |
-| **[Nextcloud Talk](https://nextcloud.com/talk/)** | Free | 🟡 | Web | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ (E2E) | Any |
-| **[Revolt](https://revolt.chat/)** | Free | 🔴 | App, Web, PWA | 🚧 (PWA) | 🚧 (PWA) | 🚧 | ❌ | ❌ | ❌ | Communities |
+| **[Spokes](https://spokes.app/)** | Paid / Licensing | 🟢 | App, Web | ✅ | ✅ | ✅ | ✅ | Encrypted | At-Rest | Small / Teams |
+| **[Mattermost](https://mattermost.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | Paid | Paid Relay | At-Rest | Enterprise |
+| **[Rocket.Chat](https://rocket.chat/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ | Relay | E2E | Enterprise |
+| **[Matrix (Element)](https://element.io/)** | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay | E2E | Massive / Any |
+| **[Zulip](https://zulip.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Paid Relay | ❌ | Enterprise / Any |
+| **[Nextcloud Talk](https://nextcloud.com/talk/)** | Free | 🟡 | Web | ✅ | ✅ | ✅ | ✅ | Relay | E2E | Any |
+| **[Stoat](https://stoat.chat/)** | Free | 🔴 | App, Web, PWA | 🚧 | 🚧 | 🟡 | ❌ | ❌ | ❌ | Communities |
 | **[Spacebar](https://spacebar.chat/)** | Free | 🔴 | App, Web | 🚧 | 🚧 | 🚧 | ❌ | ❌ | ❌ | Communities |
+| **[Chatto](https://chatto.run/)** | Free | 🟢 | Web | ❌ | ❌ | ✅ | ✅ | ❌ | At-Rest | Communities |
+| **[Fluxer](https://fluxer.app/)** | Free | 🟡 | App, Web | 🚧 | 🚧 | 🟡 | ✅ | ❌ | ❌ | Communities |
 
 ### 📖 Evaluation Criteria (Legend)
 
@@ -53,6 +55,7 @@ To ensure this list remains objective and verifiable, we use the following crite
 * **Push Notifs:** 
   * **Web:** Uses standard web push (VAPID).
   * **Relay:** Uses a centralized relay server to push notifications to mobile devices.
+  * **Paid Relay:** Uses a centralized relay server, but requires a paid subscription to utilize it.
   * **Encrypted:** Payloads are End-to-End Encrypted before going through the relay, protecting data from Apple/Google.
   * ❌ **Not Supported.**
 * **Encryption:** 
