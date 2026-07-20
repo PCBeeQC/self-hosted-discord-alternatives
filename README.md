@@ -58,7 +58,7 @@ To ensure this list remains objective and verifiable, we use the following crite
   * 🟡 **Requires Extra Config / Plugin:** Supported, but requires running additional services (like Jitsi or LiveKit) separately.
   * ❌ **Not Supported.**
 * **SSO (Single Sign-On):** Supports using an external identity provider (OIDC, SAML, etc.) for user authentication.
-* **Push Notifs:** 
+* **Push Notifications:** 
   * **Web:** Uses standard web push (VAPID).
   * **Relay:** Uses a centralized relay server to push notifications to mobile devices.
   * **Paid Relay:** Uses a centralized relay server, but requires a paid subscription to utilize it.
