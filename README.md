@@ -12,7 +12,7 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 | Name | Project Type | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.app/)** | Indie | Paid / Licensing | 🟢 | App, Web | ✅ | ✅ | ✅ | ✅ | Encrypted | At-Rest | Small / Teams |
+| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.app/)** | Indie | Paid / Licensing | 🟢 | App, Web | ✅ | 🚧 | ✅ | ✅ | Encrypted | At-Rest | Small / Teams |
 | <img src="https://github.com/mattermost.png?size=48" width="24" height="24" alt="Mattermost logo" /> **[Mattermost](https://mattermost.com/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | Paid | Relay | At-Rest | Enterprise |
 | <img src="https://github.com/RocketChat.png?size=48" width="24" height="24" alt="Rocket.Chat logo" /> **[Rocket.Chat](https://rocket.chat/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ | Relay | E2E | Enterprise |
 | <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://element.io/)** | Protocol / Foundation | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay | E2E | Massive / Any |
