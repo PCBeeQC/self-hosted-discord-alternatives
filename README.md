@@ -10,20 +10,20 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 ## ⚖️ Comparison
 
+| Name | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **[Spokes](https://spokes.app/)** | Paid / Licensing | 🟢 | App, Web | ✅ | ✅ | ✅ | ✅ | ✅ (🔒 Encrypted) | ✅ (At-Rest) | Small / Teams |
+| **[Mattermost](https://mattermost.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ (Paid) | ✅ (Needs relay) | ❌ | Enterprise |
+| **[Rocket.Chat](https://rocket.chat/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ | ✅ (Needs relay) | ✅ (E2E) | Enterprise |
+| **[Matrix (Element)](https://element.io/)** | Free | 🔴 | App, Web | ✅ | ✅ | ✅ | ✅ | ✅ (Needs relay) | ✅ (E2E) | Massive / Any |
+| **[Zulip](https://zulip.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ (Jitsi) | ✅ | ✅ (Needs relay) | ❌ | Enterprise / Any |
+| **[Nextcloud Talk](https://nextcloud.com/talk/)** | Free | 🟡 | Web | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ (E2E) | Any |
+| **[Revolt](https://revolt.chat/)** | Free | 🔴 | App, Web, PWA | 🚧 (PWA) | 🚧 (PWA) | 🚧 | ❌ | ❌ | ❌ | Communities |
+| **[Spacebar](https://spacebar.chat/)** | Free | 🔴 | App, Web | 🚧 | 🚧 | 🚧 | ❌ | ❌ | ❌ | Communities |
+
 ### Legend
 * **Ease of Setup:** 🟢 Easy (1-click/Docker), 🟡 Medium (Requires some configuration), 🔴 Hard (Complex architecture)
 * **Feature Status:** ✅ Supported, 🚧 Work in progress / Partial, ❌ Not supported
-
-| Name | Free / Paid | Ease of Setup | Desktop (App, Web, PWA) | Android App | iOS App | Voice & Video | SSO Support |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **[Spokes](https://spokes.app/)** | Paid / Licensing | 🟢 | App, Web | ✅ | ✅ | ✅ | ✅ |
-| **[Mattermost](https://mattermost.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ (Paid) |
-| **[Rocket.Chat](https://rocket.chat/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ |
-| **[Matrix (Element)](https://element.io/)** | Free | 🔴 | App, Web | ✅ | ✅ | ✅ | ✅ |
-| **[Zulip](https://zulip.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ (Jitsi) | ✅ |
-| **[Nextcloud Talk](https://nextcloud.com/talk/)** | Free | 🟡 | Web | ✅ | ✅ | ✅ | ✅ |
-| **[Revolt](https://revolt.chat/)** | Free | 🔴 | App, Web, PWA | 🚧 (PWA) | 🚧 (PWA) | 🚧 | ❌ |
-| **[Spacebar](https://spacebar.chat/)** | Free | 🔴 | App, Web | 🚧 | 🚧 | 🚧 | ❌ |
 
 ---
 
