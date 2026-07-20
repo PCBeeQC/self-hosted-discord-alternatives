@@ -12,7 +12,7 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 | Name | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **[Spokes](https://spokes.app/)** | Paid / Licensing | 🟢 | App, Web | ✅ | ✅ | ✅ | ✅ | Encrypted | At-Rest | Small / Teams |
+| **[Spokes](https://spokes.app/)** | Paid / Licensing | 🟢 | App, Web | ✅ | 🚧 | ✅ | ✅ | Encrypted | At-Rest | Small / Teams |
 | **[Mattermost](https://mattermost.com/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | Paid | Paid Relay | At-Rest | Enterprise |
 | **[Rocket.Chat](https://rocket.chat/)** | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ | Relay | E2E | Enterprise |
 | **[Matrix (Element)](https://element.io/)** | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay | E2E | Massive / Any |
