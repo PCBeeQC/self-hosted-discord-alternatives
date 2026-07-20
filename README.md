@@ -10,24 +10,29 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 ## ⚖️ Comparison
 
-| Name | Project Type | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale |
-| :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.app/)** | Indie | Paid / Licensing | 🟢 | App, Web | ✅ | 🚧 | ✅ | ✅ | Encrypted | At-Rest | Small / Teams |
-| <img src="https://github.com/mattermost.png?size=48" width="24" height="24" alt="Mattermost logo" /> **[Mattermost](https://mattermost.com/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | Paid | Relay | At-Rest | Enterprise |
-| <img src="https://github.com/RocketChat.png?size=48" width="24" height="24" alt="Rocket.Chat logo" /> **[Rocket.Chat](https://rocket.chat/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ | Relay | E2E | Enterprise |
-| <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://element.io/)** | Protocol / Foundation | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay | E2E | Massive / Any |
-| <img src="https://github.com/zulip.png?size=48" width="24" height="24" alt="Zulip logo" /> **[Zulip](https://zulip.com/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Paid Relay | ❌ | Enterprise / Any |
-| <img src="https://github.com/nextcloud.png?size=48" width="24" height="24" alt="Nextcloud logo" /> **[Nextcloud Talk](https://nextcloud.com/talk/)** | Open-Source | Free | 🟡 | Web | ✅ | ✅ | ✅ | ✅ | Relay | E2E | Any |
-| <img src="https://github.com/stoatchat.png?size=48" width="24" height="24" alt="Stoat logo" /> **[Stoat](https://stoat.chat/)** | Open-Source | Free | 🔴 | App, Web, PWA | 🚧 | 🚧 | 🟡 | ❌ | ❌ | ❌ | Communities |
-| <img src="https://github.com/spacebarchat.png?size=48" width="24" height="24" alt="Spacebar logo" /> **[Spacebar](https://spacebar.chat/)** | Open-Source | Free | 🔴 | App, Web | 🚧 | 🚧 | 🚧 | ❌ | ❌ | ❌ | Communities |
-| <img src="https://github.com/chattocorp.png?size=48" width="24" height="24" alt="Chatto logo" /> **[Chatto](https://chatto.run/)** | Open-Source | Free | 🟢 | Web | ❌ | ❌ | ✅ | ✅ | ❌ | At-Rest | Communities |
-| <img src="https://github.com/fluxerapp.png?size=48" width="24" height="24" alt="Fluxer logo" /> **[Fluxer](https://fluxer.app/)** | Open-Source | Free | 🟡 | App, Web | 🚧 | 🚧 | 🟡 | ✅ | ❌ | ❌ | Communities |
+| Name | Stage | Project Type | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale |
+| :--- | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.app/)** | Beta | Indie | Paid / Licensing | 🟢 | App, Web | ✅ | ✅ | ✅ | ✅ | Encrypted | At-Rest | Small / Teams |
+| <img src="https://github.com/mattermost.png?size=48" width="24" height="24" alt="Mattermost logo" /> **[Mattermost](https://mattermost.com/)** | Stable | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | Paid | Relay | At-Rest | Enterprise |
+| <img src="https://github.com/RocketChat.png?size=48" width="24" height="24" alt="Rocket.Chat logo" /> **[Rocket.Chat](https://rocket.chat/)** | Stable | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | ✅ | ✅ | Relay | E2E | Enterprise |
+| <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://element.io/)** | Stable | Protocol / Foundation | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay | E2E | Massive / Any |
+| <img src="https://github.com/zulip.png?size=48" width="24" height="24" alt="Zulip logo" /> **[Zulip](https://zulip.com/)** | Stable | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Paid Relay | ❌ | Enterprise / Any |
+| <img src="https://github.com/nextcloud.png?size=48" width="24" height="24" alt="Nextcloud logo" /> **[Nextcloud Talk](https://nextcloud.com/talk/)** | Stable | Open-Source | Free | 🟡 | Web | ✅ | ✅ | ✅ | ✅ | Relay | E2E | Any |
+| <img src="https://github.com/stoatchat.png?size=48" width="24" height="24" alt="Stoat logo" /> **[Stoat](https://stoat.chat/)** | Beta | Open-Source | Free | 🔴 | App, Web, PWA | 🚧 | 🚧 | 🟡 | ❌ | ❌ | ❌ | Communities |
+| <img src="https://github.com/spacebarchat.png?size=48" width="24" height="24" alt="Spacebar logo" /> **[Spacebar](https://spacebar.chat/)** | Alpha | Open-Source | Free | 🔴 | App, Web | 🚧 | 🚧 | 🚧 | ❌ | ❌ | ❌ | Communities |
+| <img src="https://github.com/chattocorp.png?size=48" width="24" height="24" alt="Chatto logo" /> **[Chatto](https://chatto.run/)** | Beta | Open-Source | Free | 🟢 | Web | ❌ | ❌ | ✅ | ✅ | ❌ | At-Rest | Communities |
+| <img src="https://github.com/fluxerapp.png?size=48" width="24" height="24" alt="Fluxer logo" /> **[Fluxer](https://fluxer.app/)** | Beta | Open-Source | Free | 🟡 | App, Web | 🚧 | 🚧 | 🟡 | ✅ | ❌ | ❌ | Communities |
+| <img src="https://github.com/Sharkord.png?size=48" width="24" height="24" alt="Sharkord logo" /> **[Sharkord](https://github.com/Sharkord/sharkord)** | Alpha | Open-Source | Free | 🟢 | Web | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Small / Teams |
 
 ### 📖 Evaluation Criteria (Legend)
 
 To ensure this list remains objective and verifiable, we use the following criteria to evaluate each platform:
 
 #### General & Business Model
+* **Stage:**
+  * **Stable:** Production-ready and actively maintained.
+  * **Beta:** Functional and feature-complete, but may have bugs or incomplete edge cases.
+  * **Alpha:** Early development; features may be missing or highly unstable.
 * **Project Type:** 
   * **Enterprise SaaS:** A commercial product built primarily as a hosted SaaS offering, with self-hosting provided as an alternative deployment method. Often features heavily restricted "Freemium" models for self-hosters.
   * **Protocol / Foundation:** A standard or foundation-backed project (e.g., Matrix).
