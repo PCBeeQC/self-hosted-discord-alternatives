@@ -1,8 +1,10 @@
 # 💬 Self-Hosted Discord Alternatives
 
-A comparison of self-hosted alternatives to communication platforms like Discord.
+A comprehensive comparison of the best **self-hosted Discord alternatives**, open-source chat platforms, and private team communication tools. 
 
-The goal of this list is to include all self-hosted alternatives, not only the open source projects. 
+Whether you are looking for an enterprise-grade platform like Mattermost, a decentralized protocol like Matrix, or a community-driven project like Spacebar, this list objectively evaluates the features that matter most to self-hosters (E2E encryption, SSO, Push Notifications, and mobile apps).
+
+The goal of this repository is to track all serious self-hosted chat servers, not just free open-source software.
 
 ## ℹ️ A note on bias
 
