@@ -14,7 +14,7 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 | Name | Project Type | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale | Monetization |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.app/)** | Indie | Paid (2 Month Free Trial) | 🟢 | Web, PWA | ✅ | 🚧 | ✅ | ✅ | Encrypted | At-Rest | Small / Teams | Flat server fee |
+| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.sh/)** | Indie | Paid (2 Months Free Trial) | 🟢 | Web, PWA | ✅ | 🚧 | ✅ | ✅ | Encrypted | At-Rest | Small / Teams | Flat server fee |
 | <img src="https://github.com/mattermost.png?size=48" width="24" height="24" alt="Mattermost logo" /> **[Mattermost](https://mattermost.com/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 (free 40m limit) | Paid | Relay | At-Rest | Enterprise (Paid) / Teams (Free) | Per user fee |
 | <img src="https://github.com/RocketChat.png?size=48" width="24" height="24" alt="Rocket.Chat logo" /> **[Rocket.Chat](https://rocket.chat/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay (10k limit) | E2E | Enterprise | Per user fee |
 | <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://element.io/)** | Protocol / Foundation | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Encrypted | E2E | Massive / Any | It does not |
