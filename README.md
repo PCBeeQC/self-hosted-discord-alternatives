@@ -2,7 +2,7 @@
 
 A comprehensive comparison of the best **self-hosted Discord alternatives**, open-source chat platforms, and private team communication tools. 
 
-This list tries to capture and summarize the features that matter when trying to self-host a chat platform. From my experience, what makes or breaks a self-hosted chat platform is how easy it is to use for the average user. Is there mobile apps they can download? Do push notifications work? Can they send GIFs in the chat (looking at you Element on iOS)? 
+This list tries to capture and summarize the features that matter when trying to self-host a chat platform. From my experience, what makes or breaks a self-hosted chat platform is how easy it is to use for the average user. Are there mobile apps they can download? Do push notifications work? Can they send GIFs in the chat (looking at you, Element on iOS)?
 
 This list tries to answer some of these questions.
 
