@@ -79,3 +79,40 @@ To ensure this list remains objective and verifiable, we use the following crite
 
 ---
 
+### 💭 My personal insights on choosing the right platform
+
+If you're feeling overwhelmed by the list, here are some personal perspectives from my own journey of trying to move away from Discord and Slack. I haven't tried or daily-driven every single platform on this list, but I have tried a few, and here are my conclusions.
+
+I have two separate use cases for a self-hosted chat platform: personal and work. Let's start with personal.
+
+#### Friends and family use case
+My friend group has been using Discord since 2015. We use it to chat, coordinate events, share pictures, etc. It has always worked great. The only issue is that everyone in my friend group, myself included, recently started having kids, and we want to preserve our children's privacy as much as possible. Discord simply isn't the right place for that.
+
+I don't need the Discord replacement to be a Discord clone, but I do have some requirements.
+
+**As the sysadmin:**
+- It must support SSO. I don't want to manage individual accounts for every single service we self-host.
+- I want the simplest possible install. The simpler the installation, the less chance that some part of the setup breaks in the future.
+
+**For the users:** (I want to reduce friction as much as possible. Not everyone cares about tech; they just want a good experience.)
+- Must have working iOS and Android apps.
+- Must have reliable notifications.
+- Group channels and private messages.
+- Good built-in GIF support.
+- Picture and video sharing.
+
+Around a year and a half ago, we went through all the options, tried a bunch, and decided that Matrix/Element was the best fit for us. It works well, but it's not really comparable to the Discord server experience. I don't exactly know how to describe it, but the apps feel "clunky". We recently switched to Spokes (mostly because I'm the creator of Spokes).
+
+#### Small business use case
+I work at a small 10-employee business where, among other roles, I manage IT. Around 3 years ago, we started needing a chat platform.
+
+We didn't have any hard-to-meet requirements:
+- A locally self-hosted solution. To avoid per-user fees and to have blazing-fast upload and download speeds for quick file sharing.
+- Good support for channels, channel categories, permissions, etc.
+- SSO support.
+- A good desktop client.
+
+We settled on Mattermost and have been really happy with it for the most part. However, the Mattermost team recently started removing features from the free tier, so your mileage may vary.
+
+#### In conclusion
+A chat platform is only useful if people use it. Think about your group and use case: what features are required for adoption, and what features are nice to have?
