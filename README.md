@@ -1,6 +1,6 @@
 # 💬 Self-Hosted Discord Alternatives
 
-A comprehensive comparison of the best **self-hosted Discord alternatives**, open-source chat platforms, and private team communication tools. 
+A comparison of the best **self-hosted Discord alternatives**, open-source chat platforms, and private team communication tools. 
 
 This list tries to capture and summarize the features that matter when trying to self-host a chat platform. From my experience, what makes or breaks a self-hosted chat platform is how easy it is to use for the average user. Are there mobile apps they can download? Do push notifications work? Can they send GIFs in the chat (looking at you, Element on iOS)?
 
@@ -14,10 +14,10 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 | Name | Project Type | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale | Monetization |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.sh/)** | Indie | Paid (2 Months Free Trial) | 🟢 | Web, PWA | ✅ | 🚧 | ✅ | ✅ | Encrypted | At-Rest | Small / Teams | Flat server fee |
+| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.sh/)** | Indie | Paid (2 Months Free Trial) | 🟢 | Web, PWA | ✅ | 🚧 | ✅ | ✅ | Relay / Encrypted | At-Rest | Small / Teams | Flat server fee |
 | <img src="https://github.com/mattermost.png?size=48" width="24" height="24" alt="Mattermost logo" /> **[Mattermost](https://mattermost.com/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 (free 40m limit) | Paid | Relay | At-Rest | Enterprise (Paid) / Teams (Free) | Per user fee ($10/mo) |
 | <img src="https://github.com/RocketChat.png?size=48" width="24" height="24" alt="Rocket.Chat logo" /> **[Rocket.Chat](https://rocket.chat/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay (10k limit) | E2E | Enterprise | Per user fee ($7/mo) |
-| <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://matrix.org/)** | Protocol / Foundation | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Encrypted | E2E | Massive / Any | Free to use |
+| <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://matrix.org/)** | Protocol / Foundation | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay / Encrypted | E2E | Massive / Any | Free to use |
 | <img src="https://github.com/zulip.png?size=48" width="24" height="24" alt="Zulip logo" /> **[Zulip](https://zulip.com/)** | Open-Source | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Paid Relay | ❌ | Enterprise / Any | Per user fee (Support/Relay) |
 | <img src="https://github.com/nextcloud.png?size=48" width="24" height="24" alt="Nextcloud logo" /> **[Nextcloud Talk](https://nextcloud.com/talk/)** | Open-Source | Free | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay | E2E | Any | Free to use |
 | <img src="https://github.com/stoatchat.png?size=48" width="24" height="24" alt="Stoat logo" /> **[Stoat](https://stoat.chat/)** | Open-Source | Free | 🔴 | App, Web, PWA | 🚧 | 🚧 | 🟡 | ❌ | ❌ (Not for self-hosted servers) | ❌ | Communities | Discord nitro model |
@@ -58,7 +58,7 @@ To ensure this list remains objective and verifiable, we use the following crite
   * 🔴 **Hard:** Multiple containers, advanced network configuration, complex scaling setup.
 * **Desktop:** Accessible via a WebUI (any browser), a Progressive Web App (PWA), or a native Desktop App.
 * **Android:** Available in the Google Play Store (✅), available as an APK download only (🚧), or none (❌).
-* **iOS:** Available in the Apple App Store (✅), or none (❌).
+* **iOS:** Available in the Apple App Store (✅), available on TestFlight (🚧), or none (❌).
 
 #### Features
 * **Voice & Video:** 
@@ -94,12 +94,14 @@ I don't need the Discord replacement to be a Discord clone, but I do have some r
 - It must support SSO. I don't want to manage individual accounts for every single service we self-host.
 - I want the simplest possible install. The simpler the installation, the less chance that some part of the setup breaks in the future.
 
-**For the users:** (I want to reduce friction as much as possible. Not everyone cares about tech; they just want a good experience.)
+**For the users:** (The goal is to reduce friction as much as possible. Not everyone cares about tech. They just want a good experience.)
 - Must have working iOS and Android apps.
 - Must have reliable notifications.
 - Group channels and private messages.
 - Good built-in GIF support.
 - Picture and video sharing.
+
+(The requirements above are my own. You need to figure your own requirements.)
 
 Around a year and a half ago, we went through all the options, tried a bunch, and decided that Matrix/Element was the best fit for us. It works well, but it's not really comparable to the Discord server experience. I don't exactly know how to describe it, but the apps feel "clunky". We recently switched to Spokes (mostly because I'm the creator of Spokes).
 
