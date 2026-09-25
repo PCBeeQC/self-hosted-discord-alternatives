@@ -14,7 +14,7 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 | Name | Project Type | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale | Monetization |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/PCBeeQC.png?size=48" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.sh/)** | Indie | Paid (2 Months Free Trial) | 🟢 | Web, PWA | ✅ | ✅ | ✅ | ✅ | Relay / Encrypted | At-Rest | Small / Teams | Flat server fee |
+| <img src="https://spokes.sh/logo.png" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.sh/)** | Indie | Freemium | 🟢 | Web, PWA | ✅ | ✅ | ✅ | ✅ | Relay / Encrypted | At-Rest | Small / Teams | Flat server pass ($45/yr) |
 | <img src="https://github.com/mattermost.png?size=48" width="24" height="24" alt="Mattermost logo" /> **[Mattermost](https://mattermost.com/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 (free 40m limit) | Paid | Relay | At-Rest | Enterprise (Paid) / Teams (Free) | Per user fee ($10/mo) |
 | <img src="https://github.com/RocketChat.png?size=48" width="24" height="24" alt="Rocket.Chat logo" /> **[Rocket.Chat](https://rocket.chat/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay (10k limit) | E2E | Enterprise | Per user fee ($7/mo) |
 | <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://matrix.org/)** | Protocol / Foundation | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay / Encrypted | E2E | Massive / Any | Free to use |
@@ -38,8 +38,8 @@ To ensure this list remains objective and verifiable, we use the following crite
   * **Indie:** An independently developed commercial product.
 * **Free / Paid:** 
   * **Free:** 100% free and open-source software with no paid tiers.
-  * **Freemium:** Core software is free, but enterprise or advanced features require a paid license.
-  * **Paid / Licensing:** Software requires a commercial license. *(e.g., Spokes offers a fully unlocked 2-month free trial. After the trial, the software remains free to use forever, but receiving future updates requires an active license).*
+  * **Freemium:** Core software is free to self-host, but advanced/hosted services (such as push notification relays) or enterprise features require a paid license. *(e.g., Spokes is free forever to self-host with web push and includes a 2-month trial of the native mobile push relay; ongoing mobile relay access is supported via an optional per-server pass).*
+  * **Paid / Licensing:** Software requires a mandatory commercial license.
 * **Monetization:** How the app developer makes money from self-hosters.
   * **Free to use:** 100% community-driven or non-profit with no paid tiers.
   * **Discord nitro model:** Core server is free; premium features sold directly to users (B2C).
