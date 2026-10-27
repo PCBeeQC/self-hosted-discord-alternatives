@@ -14,17 +14,17 @@ This list is created and maintained by the creator of Spokes (which is why I put
 
 | Name | Project Type | Free / Paid | Ease of Setup | Desktop | Android | iOS | Voice & Video | SSO | Push Notifs | Encryption | Target Scale | Monetization |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://spokes.sh/logo.png" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.sh/)** | Indie | Freemium | 🟢 | Web, PWA | ✅ | ✅ | ✅ | ✅ | Relay / Encrypted | At-Rest | Small / Teams | Flat server pass ($45/yr) |
-| <img src="https://github.com/mattermost.png?size=48" width="24" height="24" alt="Mattermost logo" /> **[Mattermost](https://mattermost.com/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 (free 40m limit) | Paid | Relay | At-Rest | Enterprise (Paid) / Teams (Free) | Per user fee ($10/mo) |
-| <img src="https://github.com/RocketChat.png?size=48" width="24" height="24" alt="Rocket.Chat logo" /> **[Rocket.Chat](https://rocket.chat/)** | Enterprise SaaS | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay (10k limit) | E2E | Enterprise | Per user fee ($7/mo) |
-| <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://matrix.org/)** | Protocol / Foundation | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay / Encrypted | E2E | Massive / Any | Free to use |
-| <img src="https://github.com/zulip.png?size=48" width="24" height="24" alt="Zulip logo" /> **[Zulip](https://zulip.com/)** | Open-Source | Free | 🔴 | App, Web | ✅ | ✅ | 🟡 | ✅ | Paid Relay | ❌ | Enterprise / Any | Per user fee (Support/Relay) |
-| <img src="https://github.com/nextcloud.png?size=48" width="24" height="24" alt="Nextcloud logo" /> **[Nextcloud Talk](https://nextcloud.com/talk/)** | Open-Source | Free | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay | E2E | Any | Free to use |
-| <img src="https://github.com/stoatchat.png?size=48" width="24" height="24" alt="Stoat logo" /> **[Stoat](https://stoat.chat/)** | Open-Source | Free | 🔴 | App, Web, PWA | 🚧 | 🚧 | 🟡 | ❌ | ❌ (Not for self-hosted servers) | ❌ | Communities | Discord nitro model |
-| <img src="https://github.com/spacebarchat.png?size=48" width="24" height="24" alt="Spacebar logo" /> **[Spacebar](https://spacebar.chat/)** | Open-Source | Free | 🔴 | App, Web | 🚧 | 🚧 | 🚧 | ❌ | ❌ | ❌ | Communities | Free to use |
-| <img src="https://github.com/chattocorp.png?size=48" width="24" height="24" alt="Chatto logo" /> **[Chatto](https://chatto.run/)** | Open-Source | Free | 🟢 | Web | ❌ | ❌ | ✅ | ✅ | Web Push | At-Rest | Communities | Cloud hosting |
-| <img src="https://github.com/fluxerapp.png?size=48" width="24" height="24" alt="Fluxer logo" /> **[Fluxer](https://fluxer.app/)** | Open-Source | Free | 🟡 | App, Web | 🚧 | 🚧 | 🟡 | ✅ | UnifiedPush / Web Push | ❌ | Communities | Discord nitro model |
-| <img src="https://github.com/Sharkord.png?size=48" width="24" height="24" alt="Sharkord logo" /> **[Sharkord](https://github.com/Sharkord/sharkord)** | Open-Source | Free | 🟢 | Web | 🚧 | ❌ | ✅ | ❌ | ❌ | ❌ | Small / Teams | Free to use |
+| <img src="https://spokes.sh/logo.png" width="24" height="24" alt="Spokes logo" /> **[Spokes](https://spokes.sh/)** | Indie | Freemium | 🟢 | App, Web, PWA | ✅ | ✅ | ✅ | ✅ | Web Push / Paid Relay / Encrypted | At-Rest | Small / Teams | Flat server pass ($45/yr) |
+| <img src="https://github.com/mattermost.png?size=48" width="24" height="24" alt="Mattermost logo" /> **[Mattermost](https://mattermost.com/)** | Enterprise SaaS | Freemium | 🟡 | App, Web, PWA | ✅ | ✅ | 🟡 (free 1:1 & 40m limit) | Paid | Paid Relay (Free 10k/Test limit) | ❌ | Enterprise (Paid) / Teams (Free) | Per user fee ($10/mo) |
+| <img src="https://github.com/RocketChat.png?size=48" width="24" height="24" alt="Rocket.Chat logo" /> **[Rocket.Chat](https://rocket.chat/)** | Enterprise SaaS | Freemium | 🟡 | App, Web, PWA | ✅ | ✅ | 🟡 | Paid | Relay (10k limit) | E2E | Enterprise (Paid) / Small (Free) | Per user fee ($8+/mo) |
+| <img src="https://github.com/element-hq.png?size=48" width="24" height="24" alt="Element logo" /> **[Matrix (Element)](https://matrix.org/)** | Protocol / Foundation | Free | 🔴 | App, Web, PWA | ✅ | ✅ | 🟡 | ✅ | Relay / Encrypted | E2E | Massive / Any | Free to use |
+| <img src="https://github.com/zulip.png?size=48" width="24" height="24" alt="Zulip logo" /> **[Zulip](https://zulip.com/)** | Open-Source | Freemium | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Paid Relay / Encrypted (Free ≤10 users) | ❌ | Enterprise / Any | Per user fee ($3.50/mo Relay) |
+| <img src="https://github.com/nextcloud.png?size=48" width="24" height="24" alt="Nextcloud logo" /> **[Nextcloud Talk](https://nextcloud.com/talk/)** | Open-Source | Free | 🟡 | App, Web | ✅ | ✅ | 🟡 | ✅ | Relay / Encrypted | ❌ | Any | Free to use |
+| <img src="https://github.com/stoatchat.png?size=48" width="24" height="24" alt="Stoat logo" /> **[Stoat](https://stoat.chat/)** | Open-Source | Free | 🔴 | App, Web, PWA | ✅ | 🚧 | 🟡 | ❌ | Web Push | ❌ | Communities | Free to use |
+| <img src="https://github.com/spacebarchat.png?size=48" width="24" height="24" alt="Spacebar logo" /> **[Spacebar](https://spacebar.chat/)** | Open-Source | Free | 🔴 | App, Web | 🚧 | ❌ | 🟡 | ❌ | ❌ | ❌ | Communities | Free to use |
+| <img src="https://github.com/chattocorp.png?size=48" width="24" height="24" alt="Chatto logo" /> **[Chatto](https://chatto.run/)** | Open-Source | Free | 🟡 | Web, PWA | ❌ | ❌ | 🟡 | ✅ | Web Push | At-Rest | Communities | Cloud hosting |
+| <img src="https://github.com/fluxerapp.png?size=48" width="24" height="24" alt="Fluxer logo" /> **[Fluxer](https://fluxer.app/)** | Open-Source | Free | 🟡 | App, Web, PWA | ✅ | 🚧 | 🟡 | ✅ | Relay / Encrypted / UnifiedPush / Web Push | ❌ | Communities | Discord nitro model |
+| <img src="https://github.com/Sharkord.png?size=48" width="24" height="24" alt="Sharkord logo" /> **[Sharkord](https://github.com/Sharkord/sharkord)** | Open-Source | Free | 🟢 | Web | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | Small / Teams | Free to use |
 
 ### 📖 Evaluation Criteria (Legend)
 
@@ -44,7 +44,7 @@ To ensure this list remains objective and verifiable, we use the following crite
   * **Free to use:** 100% community-driven or non-profit with no paid tiers.
   * **Discord nitro model:** Core server is free; premium features sold directly to users (B2C).
   * **Cloud hosting:** Self-hosted is free; they make money selling managed cloud hosting.
-  * **Flat server fee:** You pay a single flat price per server/instance, regardless of user count.
+  * **Flat server pass:** You pay a single flat price per server/instance, regardless of user count.
   * **Per user fee:** The cost scales with the number of users on your server.
 * **Target Scale:** 
   * **Small / Teams:** Optimized for performance and simplicity for groups up to ~100 users.
@@ -67,7 +67,8 @@ To ensure this list remains objective and verifiable, we use the following crite
   * ❌ **Not Supported.**
 * **SSO (Single Sign-On):** Supports using an external identity provider (OIDC, SAML, etc.) for user authentication.
 * **Push Notifications:** 
-  * **Web:** Uses standard web push (VAPID).
+  * **Web Push:** Uses standard web push (VAPID).
+  * **UnifiedPush:** Uses the open UnifiedPush standard on Android.
   * **Relay:** Uses a centralized relay server to push notifications to mobile devices.
   * **Paid Relay:** Uses a centralized relay server, but requires a paid subscription to utilize it.
   * **Encrypted:** Payloads are End-to-End Encrypted before going through the relay, protecting data from Apple/Google.
