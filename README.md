@@ -2,13 +2,13 @@
 
 A comparison of the best **self-hosted Discord alternatives**, open-source chat platforms, and private team communication tools. 
 
-This list tries to capture and summarize the features that matter when trying to self-host a chat platform. From my experience, what makes or breaks a self-hosted chat platform is how easy it is to use for the average user. Are there mobile apps they can download? Do push notifications work? Can they send GIFs in the chat (looking at you, Element on iOS)?
+When evaluating a self-hosted replacement for Discord, most comparisons only look at desktop text channel screenshots. In real-world deployments, what makes or breaks a self-hosted chat server for friends, gaming communities, families, and small teams comes down to four practical requirements:
+1. **Ease of Hosting & Maintenance:** Does it run in a **single Docker container**, or does it require orchestrating 5–10 separate containers (PostgreSQL/MongoDB, Redis, Coturn TURN, and a standalone WebRTC media server)?
+2. **Voice & Video Channels:** Are persistent, drop-in voice rooms, video calls, and screen sharing **built directly into the server** out of the box, or do they require stitching together external Jitsi/LiveKit bridges?
+3. **Official Mobile Apps:** Can non-technical users download polished, official apps directly from the **Apple App Store (iOS)** and **Google Play Store (Android)** without sideloading APKs or joining expired TestFlight betas?
+4. **Working Push Notifications:** Do mobile push notifications work reliably when phones are locked, and can users send media and GIFs effortlessly?
 
-This list tries to answer some of these questions.
-
-## ℹ️ A note on bias
-
-This list is created and maintained by the creator of Spokes (which is why I put Spokes at the top). Apart from that, I want the list to be as accurate as possible. If you know of a serious self-hosted alternative that isn't listed here, or if you spot an inaccuracy, please open a pull request or issue. I will do my best to fix it as quickly as possible.
+This list tries to answer some of these questions. If you know of a serious self-hosted alternative that isn't listed here, or if you spot an inaccuracy, please open a pull request or issue. I will do my best to fix it as quickly as possible.
 
 ## ⚖️ Comparison
 
@@ -23,7 +23,7 @@ This list is created and maintained by the creator of Spokes (which is why I put
 | <img src="https://github.com/stoatchat.png?size=48" width="24" height="24" alt="Stoat logo" /> **[Stoat](https://stoat.chat/)** | Open-Source | Free | 🔴 | App, Web, PWA | ✅ | 🚧 | 🟡 | ❌ | Web Push | ❌ | Communities | Free to use |
 | <img src="https://github.com/spacebarchat.png?size=48" width="24" height="24" alt="Spacebar logo" /> **[Spacebar](https://spacebar.chat/)** | Open-Source | Free | 🔴 | App, Web | 🚧 | ❌ | 🟡 | ❌ | ❌ | ❌ | Communities | Free to use |
 | <img src="https://github.com/chattocorp.png?size=48" width="24" height="24" alt="Chatto logo" /> **[Chatto](https://chatto.run/)** | Open-Source | Free | 🟡 | Web, PWA | ❌ | ❌ | 🟡 | ✅ | Web Push | At-Rest | Communities | Cloud hosting |
-| <img src="https://github.com/fluxerapp.png?size=48" width="24" height="24" alt="Fluxer logo" /> **[Fluxer](https://fluxer.app/)** | Open-Source | Free | 🟡 | App, Web, PWA | ✅ | 🚧 | 🟡 | ✅ | Relay / Encrypted / UnifiedPush / Web Push | ❌ | Communities | Discord nitro model |
+| <img src="https://github.com/fluxerapp.png?size=48" width="24" height="24" alt="Fluxer logo" /> **[Fluxer](https://fluxer.app/)** | Open-Source | Free | 🟡 | App, Web, PWA | ✅ | 🚧 | 🟡 | ✅ | Relay / Encrypted / UnifiedPush / Web Push | ❌ | Communities | Supporter pass ($199) |
 | <img src="https://github.com/Sharkord.png?size=48" width="24" height="24" alt="Sharkord logo" /> **[Sharkord](https://github.com/Sharkord/sharkord)** | Open-Source | Free | 🟢 | Web | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | Small / Teams | Free to use |
 
 ### 📖 Evaluation Criteria (Legend)
@@ -38,11 +38,11 @@ To ensure this list remains objective and verifiable, we use the following crite
   * **Indie:** An independently developed commercial product.
 * **Free / Paid:** 
   * **Free:** 100% free and open-source software with no paid tiers.
-  * **Freemium:** Core software is free to self-host, but advanced/hosted services (such as push notification relays) or enterprise features require a paid license. *(e.g., Spokes is free forever to self-host with web push and includes a 2-month trial of the native mobile push relay; ongoing mobile relay access is supported via an optional per-server pass).*
+  * **Freemium:** Core software is free to self-host, but advanced/hosted services (such as push notification relays) or enterprise features require a paid license.
   * **Paid / Licensing:** Software requires a mandatory commercial license.
 * **Monetization:** How the app developer makes money from self-hosters.
   * **Free to use:** 100% community-driven or non-profit with no paid tiers.
-  * **Discord nitro model:** Core server is free; premium features sold directly to users (B2C).
+  * **Supporter pass / Donations:** Self-hosted is 100% free with all features; funded by optional supporter passes (e.g., Operator Pass) or donations.
   * **Cloud hosting:** Self-hosted is free; they make money selling managed cloud hosting.
   * **Flat server pass:** You pay a single flat price per server/instance, regardless of user count.
   * **Per user fee:** The cost scales with the number of users on your server.
@@ -80,6 +80,22 @@ To ensure this list remains objective and verifiable, we use the following crite
 
 ---
 
+### 🔍 Platform Summaries
+
+* **[Spokes](https://spokes.sh/):** Built for small groups, families, and teams. Deploys as a single Docker container with no external database required. Includes built-in Discord-style voice and video channels, SSO, and official iOS (App Store) and Android (Google Play) apps with encrypted push notifications (free Web Push; 2-month free trial of native mobile push, then $45/yr flat per-server pass).
+* **[Mattermost](https://mattermost.com/):** Slack-style workplace chat. Deploys via Docker Compose with PostgreSQL. Official iOS and Android apps are available, though the free tier limits push notifications (10k/month), group calls (1:1 and 40-minute limit), and SSO unless on a per-user paid plan ($10/user/mo).
+* **[Rocket.Chat](https://rocket.chat/):** Enterprise Slack-style workspace. Deploys via Docker Compose with MongoDB. Official iOS and Android apps are available; voice/video requires extra Jitsi/LiveKit setup, and free self-hosted servers have a 10k/month push notification cap ($8+/user/mo for paid tiers).
+* **[Matrix (Element)](https://matrix.org/):** Decentralized, federated protocol with end-to-end encryption and official iOS and Android apps (with free push notifications). Self-hosting a homeserver with working voice and video channels requires a multi-container stack (Synapse, PostgreSQL, TURN, and a separate LiveKit or Jitsi service).
+* **[Zulip](https://zulip.com/):** Open-source chat organized around topic-threaded streams. Deploys as a multi-container Docker stack with official iOS and Android apps. Calls rely on external Jitsi/Zoom integrations rather than persistent voice rooms, and mobile push notifications require a paid plan ($3.50/user/mo) above 10 users.
+* **[Nextcloud Talk](https://nextcloud.com/talk/):** Communication module for Nextcloud with official iOS and Android apps and working push notifications. Group voice and video calls beyond a few users require deploying and configuring a separate High-Performance Backend (HPB) and TURN server.
+* **[Stoat](https://stoat.chat/) (formerly Revolt):** Open-source Discord clone. Self-hosting requires a multi-container stack (MongoDB, Redis, RabbitMQ, MinIO, Vortex). Android is available, iOS is on TestFlight, and self-hosted instances only support Web Push out of the box (native mobile push keys are tied to the official hosted instance).
+* **[Spacebar](https://spacebar.chat/):** Open-source project aiming for Discord API compatibility. Requires a multi-container setup, mobile clients are still in early development (no iOS App Store app or working self-hosted mobile push notifications), and voice/video requires extra setup.
+* **[Chatto](https://chatto.run/):** Open-source community chat with Web and PWA support, Web Push notifications, and SSO. Requires extra setup for voice/video and does not currently have native iOS or Android store apps.
+* **[Fluxer](https://fluxer.app/):** Open-source Discord clone supporting SSO, Android, and iOS (TestFlight) with UnifiedPush and encrypted push relay support. Deploys as a multi-container stack, requires extra configuration for self-hosted voice and video, and is funded by an optional one-time Operator Pass ($199) that does not restrict self-hosted features.
+* **[Sharkord](https://github.com/Sharkord/sharkord):** Lightweight open-source Discord alternative that runs in a single container with built-in voice and video channels. Accessible via web browser only, with no native iOS or Android mobile apps and no push notifications.
+
+---
+
 ### 💭 My personal insights on choosing the right platform
 
 If you're feeling overwhelmed by the list, here are some personal perspectives from my own journey of trying to move away from Discord and Slack. I haven't tried or daily-driven every single platform on this list, but I have tried a few, and here are my conclusions.
@@ -102,9 +118,9 @@ I don't need the Discord replacement to be a Discord clone, but I do have some r
 - Good built-in GIF support.
 - Picture and video sharing.
 
-(The requirements above are my own. You need to figure your own requirements.)
+(The requirements above are my own. You need to figure out your own requirements.)
 
-Around a year and a half ago, we went through all the options, tried a bunch, and decided that Matrix/Element was the best fit for us. It works well, but it's not really comparable to the Discord server experience. I don't exactly know how to describe it, but the apps feel "clunky". We recently switched to Spokes (mostly because I'm the creator of Spokes).
+Around a year and a half ago, we went through all the options, tried a bunch, and decided that Matrix/Element was the best fit for us. It works well, but it's not really comparable to the Discord server experience. I don't exactly know how to describe it, but the apps feel "clunky". I eventually ended up building Spokes to get the exact setup we wanted, and we have been using it since.
 
 #### Small business use case
 I work at a small 10-employee business where, among other roles, I manage IT. Around 3 years ago, we started needing a chat platform.
