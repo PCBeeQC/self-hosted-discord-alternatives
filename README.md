@@ -2,7 +2,7 @@
 
 A comparison of the best **self-hosted Discord alternatives**, open-source chat platforms, and private group communication tools. 
 
-When people look for a **self-hosted Discord alternative**, they usually focus on finding something that looks like Discord. What often gets overlooked until after the server is already set up is that **mobile apps with working push notifications and drop-in voice channels are a core part of why Discord works so well in the first place**. Most friends, family members, and teammates use chat on their phones just as much as on their computers. If a self-hosted server doesn't have an app on the App Store and Google Play, or if people don't get notifications when their phone is in their pocket, the group simply will not use it.
+When people look for a **self-hosted Discord alternative**, they usually focus on finding something that looks like Discord. What often gets overlooked is that **mobile apps with working push notifications and drop-in voice channels are a core part of why Discord works so well in the first place**. Most friends, family members, and teammates use chat on their phones just as much as on their computers. If a self-hosted server doesn't have an app on the App Store and Google Play, or if people don't get notifications when their phone is in their pocket, the group simply will not use it.
 
 In practice, what makes or breaks a self-hosted Discord replacement comes down to four things:
 1. **Ease of Hosting & Maintenance:** Can you run it in a **single Docker container**, or do you have to manage 5 to 10 separate containers (PostgreSQL or MongoDB, Redis, Coturn TURN, and a separate WebRTC voice server)?
