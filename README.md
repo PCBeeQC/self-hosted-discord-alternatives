@@ -2,11 +2,11 @@
 
 A practical comparison of **self-hosted Discord alternatives**, open-source chat platforms, and private group communication tools.
 
-> **Disclosure:** I am the developer of [Spokes](https://spokes.sh/). My goal here is to keep an accurate, up-to-date list of serious self-hosted Discord alternatives. If a project is missing or any detail is outdated, please open an issue or pull request and I will update it quickly.
-
 This comparison focuses strictly on the **self-hosted version** of each platform (some projects offer different features or push notification behavior on their hosted cloud plans).
 
 Every self-hosted chat platform makes trade-offs. Depending on your group, you may prioritize an open-source license, full end-to-end encryption and federation, Discord bot compatibility, a lightweight Docker setup, built-in voice and video, or official iOS and Android apps with working push notifications. The table below compares each option across those areas, along with how each project is funded and its main trade-offs.
+
+> **Disclosure:** I am the developer of [Spokes](https://spokes.sh/). My goal here is to keep an accurate, up-to-date list of serious self-hosted Discord alternatives. If a project is missing or any detail is outdated, please open an issue or pull request and I will update it quickly.
 
 ## ⚖️ Comparison (Alphabetical)
 
